@@ -1,2 +1,3 @@
 apples file
 appleas are red
+price:20 kr 
