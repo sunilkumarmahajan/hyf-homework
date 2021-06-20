@@ -1,0 +1,3 @@
+Exercise 2.
+added into master file.
+git branch will show the active status. in git-exersice2 file.
