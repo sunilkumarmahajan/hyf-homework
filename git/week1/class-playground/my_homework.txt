@@ -3,3 +3,4 @@ added into master file.
 git branch will show the active status. in git-exersice2 file.
 this file is not in master.
 final changes to my_homework.txt file.
+new text added as per instruction 9 in exersice2.
