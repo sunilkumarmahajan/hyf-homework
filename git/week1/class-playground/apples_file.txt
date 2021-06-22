@@ -1,2 +1,0 @@
-red apples
-price 10 kr.
