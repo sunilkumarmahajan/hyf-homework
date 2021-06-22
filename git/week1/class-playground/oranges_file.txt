@@ -1,2 +1,2 @@
 oranges
-are orange in color
+are orange in color. 
