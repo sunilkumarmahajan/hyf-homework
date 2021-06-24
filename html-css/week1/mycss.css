@@ -13,7 +13,7 @@ body{
   text-align: center;
   
 }
-.grid-container2
+.grid-container-details
 {
   display: grid;
   grid-template-columns: 400px 800px;
