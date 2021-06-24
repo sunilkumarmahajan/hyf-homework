@@ -31,7 +31,7 @@ h4{
 	color:#666;
 }
 
-ul 
+.ul 
 { 
 	list-style-type:none;
 	font-family:sans-serif;
@@ -40,7 +40,7 @@ ul
 	padding-left:10%;
   
  }
-li
+.li
 { 
     display: inline;  
     padding-left:1em;    
