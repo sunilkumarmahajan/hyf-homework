@@ -18,7 +18,7 @@ body{
   display: grid;
   grid-template-columns: 400px 800px;
   grid-gap: 20px;
-  padding: 50 px;
+  padding: 50px;
   text-align: center;
   background: rgb(147, 186, 231);
 box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
@@ -29,8 +29,8 @@ box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 	font-size:1.5em; 
 	font-family:sans-serif; 
 	font-weight:bold;  
-	color:rgb(3, 49, 56);
-	margin: 5px;
+	color:black;
+	text-align: left;
 }
 .h2
 {
