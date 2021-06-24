@@ -26,10 +26,11 @@ box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
   }
 .p
 {
-	font-size:20px; 
+	font-size:25px; 
 	font-family:sans-serif; 
 	font-weight:bold;  
 	color:rgb(3, 49, 56);
+	margin: 5px;
 }
 .h2
 {
