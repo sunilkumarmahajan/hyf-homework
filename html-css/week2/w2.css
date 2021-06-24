@@ -70,11 +70,11 @@ footer{
   padding-left:5%;
   justify-content: space-evenly;
 }
-footer ul li {
+footer >ul >li {
     list-style: none;
     line-height:2em;
 }  
-footer h3{
+footer >h3{
 
   font-size:1.2em;
   font-family:arial;
@@ -83,7 +83,7 @@ footer h3{
   line-height:1.5em;
   text-align:justify;
 }
-footer P{
+footer >P{
   font-size:0.9em;
   font-family:sans-serif;
   font-weight:bold;
