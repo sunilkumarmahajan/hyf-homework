@@ -26,7 +26,7 @@ box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
   }
 .p
 {
-	font-size:25px; 
+	font-size:1.5em; 
 	font-family:sans-serif; 
 	font-weight:bold;  
 	color:rgb(3, 49, 56);
@@ -34,14 +34,14 @@ box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 .h2
 {
-	font-size:20px; 
+	font-size:2em; 
 	font-family:sans-serif; 
 	font-weight:bold;  
 	color:rgb(3, 49, 56);
 }
 .h4
 {
-	font-size:15px;
+	font-size:1.5em;
 	font-family:verdana;
         font-weight:normal;
         color:black;
@@ -51,7 +51,7 @@ box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 
 .footer
 {
-  font-size:10px;
+  font-size:1em;
   font-family: Lucida Grande;
   font-style:italic;
   color:black;
