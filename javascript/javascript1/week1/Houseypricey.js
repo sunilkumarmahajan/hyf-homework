@@ -1,28 +1,32 @@
 //peter house calculation
-var width = 8;
-var height = 10;
-var depth = 10;
-var gardenSizeInM2 = 100;
-var actualhousePrise = 2500000;
-var volumeInMeters;
-var housePrice;
+const width = 8;
+const height = 10;
+const depth = 10;
+const gardenSizeInM2 = 100;
+const actualhousePrise = 2500000;
+const volumeInMeters;
+const housePrice;
 volumeInMeters = width * height * depth;
 housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;
 if (housePrice > actualhousePrise) {
-console.log ("peter is paying exess price");}
+console.log ("peter is paying exess price");
+}
 else
-{console.log("peter is paying less than the actual price");}
+{console.log("peter is paying less than the actual price");
+}
 //Julia house calculation
-var width = 5;
-var height = 8;
-var depth = 11;
-var gardenSizeInM2 = 70;
-var actualhousePrise = 1000000;
-var volumeInMeters;
-var housePrice;
+const width = 5;
+const height = 8;
+const depth = 11;
+const gardenSizeInM2 = 70;
+const actualhousePrise = 1000000;
+const volumeInMeters;
+const housePrice;
 volumeInMeters = width * height * depth;
 housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;
 if (housePrice > actualhousePrise) {
-console.log ("Julia is paying too much than the actual price");}
+console.log ("Julia is paying too much than the actual price");
+}
 else
-{console.log("Julia is paying less than the actual price");}
+{console.log("Julia is paying less than the actual price");
+}
