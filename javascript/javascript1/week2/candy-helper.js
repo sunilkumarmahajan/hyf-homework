@@ -34,16 +34,17 @@ addCandy("chocolate",5);
 addCandy("toffee",15);
 addCandy("chewing-gum",20);
 //calculation of total amount spent
-let i=0;
+
+let amountToSpend = Math.floor(Math.random() * 100);
+//function to check to but more or not 
+function canBuyMoreCandy()
+{
+    let i=0;
 while (i<boughtCandyPrices.length)
 {
     spendpower += boughtCandyPrices[i];
     i++;
 }
-let amountToSpend = Math.floor(Math.random() * 100);
-//function to check to but more or not 
-function canBuyMoreCandy()
-{
     if (amountToSpend>spendpower)
     {
         console.log("You can buy more, so please do!");
