@@ -1,7 +1,7 @@
 const class07Students = [];
 function addStudentToClass(studentName)
 {
-  if (studentName==="")
+  if (studentName.trim() === " ")
   {
     console.log("name should not be empty");
   }
@@ -24,8 +24,7 @@ function addStudentToClass(studentName)
 }
 function getNumberOfStudents()
 {
-  const NoOfStudents=class07Students.length;
-  return NoOfStudents;
+  return class07Students.length;
 }
 addStudentToClass("Kalvin");
 addStudentToClass("Mason");
