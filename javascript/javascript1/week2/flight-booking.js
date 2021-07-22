@@ -1,19 +1,18 @@
-let firstname,surname,FormalName,gender;
-function getFullname(firstname,surname,gender,FormalName)
+function getFullname(firstname,surname,gender,formalName)
 {
-    if (gender==="male" && FormalName==="true")
+    if (gender==="male" && formalName==="true")
     {
         return(`Sir ${firstname} ${surname}`);
     }
-    else if (gender==="male" && FormalName==="false")
+    else if (gender==="male" && formalName==="false")
     {
         return(`${firstname} ${surname}`);
     }
-    if (gender==="female" && FormalName==="true")
+    if (gender==="female" && formalName==="true")
     {
         return(`Madam ${firstname} ${surname}`);
     }
-    else if (gender==="female" && FormalName==="false")
+    else if (gender==="female" && formalName==="false")
     {
         return(`${firstname} ${surname}`);
     }
