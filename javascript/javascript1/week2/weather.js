@@ -1,18 +1,18 @@
 let clothes;
-let temp;
-function clothesToWear(temp)
+let temperature;
+function clothesToWear(temperature)
 {
-    if (temp <=10)
+    if (temperature <=10)
     {
-        return (clothes =`its ${temp} degrees --- jackets and winter clothes should wear`);
+        return (clothes =`its ${temperature} degrees --- jackets and winter clothes should wear`);
     }
-    else if (temp >10 && temp<=16)
+    else if (temperature >10 && temperature<=16)
     {
-        return (clothes=`its Okay ${temp} degrees. normal clothes should be wear`);
+        return (clothes=`its Okay ${temperature} degrees. normal clothes should be wear`);
     }
     else 
     {
-        return(clothes=`its summer with ${temp} degrees. Shorts and simple clothes should be wear`);
+        return(clothes=`its summer with ${temperature} degrees. Shorts and simple clothes should be wear`);
     }
     console.log(clothes);
 }
