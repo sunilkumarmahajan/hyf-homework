@@ -10,6 +10,6 @@ const travelInformation =
      const travelTime = `Travel time is ${travelhours} hours and  ${travelminutes} minutes.`;
      return(travelTime); 
   }
-const travelTime=calctime(travelInformation);
-console.log(travelTime);
-//console.log(calctime());
+//const travelTime=calctime(travelInformation);
+//console.log(travelTime);
+console.log(calctime());
