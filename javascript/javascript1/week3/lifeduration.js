@@ -29,6 +29,6 @@ for (let i = 0; i<seriesDurations.length;i++)
   console.log(`${seriesDurations[i].title} took ${Timetoook[i]}% of my life`);
   TotalDuration += parseFloat(Timetoook[i]);
 }
-console.log(`In total that is ${parseFloat (TotalDuration).toFixed(3)}%of my life`);
+console.log(`In total that is ${(TotalDuration).toFixed(3)}%of my life`);
 }
 logOutSeriesText(); 
