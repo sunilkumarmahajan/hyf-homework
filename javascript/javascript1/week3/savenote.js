@@ -27,7 +27,7 @@ let result;
     }
     return result;
 }
-firstNote = getNote(1);
+let firstNote = getNote(1);
 console.log(firstNote); 
 console.log(getNote(2));
 console.log(getNote(""));
