@@ -44,7 +44,7 @@ function getReply(command)
     }
     else if (command.includes("What is"))
     {
-        matharray = command.split(" ");
+       const matharray = command.split(" ");
         let num1 = matharray[2];
         let num2 = matharray[4];
         let operator = matharray[3];
