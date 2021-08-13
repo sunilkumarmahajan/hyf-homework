@@ -39,15 +39,18 @@ function getReply(command)
     }
     else if (command.includes("What day is it today"))
     {
-        const today = new Date().toDateString().split(" "); 
-        return `${today[2]}. of ${today[1]} ${today[3]}`;
+        const today= new Date().toLocaleDateString('en-US', {
+            day: 'numeric',
+            year: 'numeric',
+            month: 'long'
+          });
+          return (today);
     }
     else if (command.includes("What is"))
     {
-       const matharray = command.split(" ");
-        let num1 = parseInt(matharray[2]);
-        let num2 = parseInt(matharray[4]);
-        let operator = matharray[3];
+        let num1 = parseInt(arraywords[2]);
+        let num2 = parseInt(arraywords[4]);
+        let operator = arraywords[3];
         if (operator === "+")
         {
            return (num1 + num2);
