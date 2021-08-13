@@ -45,12 +45,12 @@ function getReply(command)
     else if (command.includes("What is"))
     {
        const matharray = command.split(" ");
-        let num1 = matharray[2];
-        let num2 = matharray[4];
+        let num1 = parseInt(matharray[2]);
+        let num2 = parseInt(matharray[4]);
         let operator = matharray[3];
         if (operator === "+")
         {
-           return (parseInt(num1)+parseInt(num2));
+           return (num1 + num2);
         }
         else if (operator === "-")
         {
