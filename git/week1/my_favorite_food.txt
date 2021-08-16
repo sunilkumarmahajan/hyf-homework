@@ -6,6 +6,10 @@ Ingredients (US cup = 240ml)
 1 to 2 green chilies slit or chopped.
 4 to 5 boiled eggs (make few gashes)
 1 medium tomato chopped finely.
+<<<<<<< HEAD
 ¼ teaspoon turmeric or haldi.
 
 newly addred on 24 june
+=======
+¼ teaspoon turmeric or haldi.
+>>>>>>> master

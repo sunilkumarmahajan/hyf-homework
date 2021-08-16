@@ -4,5 +4,8 @@ Optional – When the butter melts, add ½ inch cinnamon, 3 cloves, 2 green card
 Reduce the flame to low, saute 1½ teaspoon ginger garlic paste for 1 minute. ...
 Pour the blended onion tomato puree. ...
 Pour ½ cup water & mix well.
+<<<<<<< HEAD
 
 newly addred on 24 june
+=======
+>>>>>>> master
