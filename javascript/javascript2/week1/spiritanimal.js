@@ -9,7 +9,7 @@ button.innerHTML = "submit";
 function generateSpiritName() {
     const name = document.getElementsByClassName("name")[0].value;
     if (name) {
-        spiritAnimal.innerHTML = `${name} : ${animalNames[Math.floor(Math.random() * 10)]}`;
+        spiritAnimal.innerHTML = `${name} : ${animalNames[Math.floor(Math.random() * animalNames.length)]}`;
     }
     else {
         alert("please write your name")
