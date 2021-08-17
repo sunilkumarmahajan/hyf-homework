@@ -5,7 +5,7 @@ const animalNames = ["Bear - It is deeply emotional", "Cat - symbolizes curiosit
     "Tiger - represents raw feelings and emotions", "Butterfly - symbol of transformation"];
 const spiritAnimal = document.querySelector('.spiritAnimal');
 const button = document.querySelector(".submit");
-button.innerHTML = "submit";
+//button.innerHTML = "submit";
 function generateSpiritName() {
     const name = document.getElementsByClassName("name")[0].value;
     if (name) {
