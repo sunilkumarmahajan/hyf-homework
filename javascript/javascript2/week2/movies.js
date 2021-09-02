@@ -11,8 +11,9 @@ console.log(movies.filter((movie) => movie.title.length > 70));
 console.log(movies.filter((movie) => movie.title.length > 70).map(movie=>movie.title));
 
 //3. Count the number of movies made between 1980-1989 (including both the years)
+const moviesCount = movies.filter((movie) => movie.year>=1980 &&movie.year<=1989).length;
 console.log("count of movies between 1980-1989 (including both the years):  "+
-movies.filter((movie) => movie.year>=1980 &&movie.year<=1989).length);
+moviesCount);
 
 //4. Create a new array on rating  Good (>= 7), Average (>= 4 and < 7), Bad (< 4)
 const TagMovieType = movies;
