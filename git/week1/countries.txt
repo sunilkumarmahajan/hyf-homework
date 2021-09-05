@@ -1,8 +1,4 @@
 India
-<<<<<<< HEAD
 Denmark
 Canada
-=======
-Canada
-Dubai
->>>>>>> master
+
