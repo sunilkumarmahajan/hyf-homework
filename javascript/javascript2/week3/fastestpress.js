@@ -45,7 +45,7 @@ Jsstartgame.addEventListener("click",(event)=>{
                         Jsgamestatus.innerHTML = 'game finished... click restart to play again';
                     }              
                         Jsresetgame.disabled=false;
-                        document.removeEventListener("keydown", keyCount); 
+                        document.removeEventListener("keyup", keyCount); 
                 }
                 }, 1000);
            }
@@ -54,7 +54,7 @@ Jsresetgame.addEventListener("click", (restartTheGame) =>{
     document.location.href = "";
 });
 //counting of L and S keys
-document.addEventListener("keydown", keyCount);
+document.addEventListener("keyup", keyCount);
 function keyCount(event)
  {
     if (Jsduration.value > 0)
