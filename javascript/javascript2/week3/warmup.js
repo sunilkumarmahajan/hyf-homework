@@ -1,7 +1,7 @@
 //1. Log out the text Called after 2.5 seconds 2.5 seconds after the script is loaded.
-console.log("text will display after 4 seconds");
+console.log("text will display after 2.5 seconds");
 setTimeout (() => {
-    console.log("4 seconds finished....hello");},2000);
+    console.log("4 seconds finished....hello");},2500);
     
 //2. Create a function that takes 2 parameters: delay and stringToLog. 
 function timeDelay(delay,StringtoLog)
