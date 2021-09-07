@@ -7,20 +7,20 @@ setTimeout (() => {
 function timeDelay(delay,StringtoLog)
 {
     setTimeout (() => {
-        console.log(StringtoLog);},delay);      
+        console.log(StringtoLog);},delay*1000);      
 }
-timeDelay(2000, "stringToLog after delay seconds from function ");
+timeDelay(2, "stringToLog after delay from function ");
 
 /*3. Create a button in html. When clicking this button, use the function you created 
 in the previous task to log out the text: Called after 5 seconds 5 seconds after 
 the button is clicked.*/
 
 const JsDelayBtn = document.getElementById('DelayBtn');
-JsDelayBtn.addEventListener('click', timeDelay1(5000, "Text after given time delay "));
-function timeDelay1 (delay,StringtoLog)
+JsDelayBtn.addEventListener('click', timeDelay(5, "Text after given time delay "));
+function timeDelay (delay,StringtoLog)
 {
     setTimeout (() => {
-        document.getElementById("root").innerHTML = (StringtoLog);},delay);;  
+        document.getElementById("root").innerHTML = (StringtoLog);},delay*1000);;  
 }
 
 // 4 Create two functions and assign them to two different variables.One function logs out Earth, the other function logs out Saturn. Now create a new third function that has one parameter: planetLogFunction. 
