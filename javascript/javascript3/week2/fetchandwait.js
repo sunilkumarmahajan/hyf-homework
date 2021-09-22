@@ -6,7 +6,7 @@
 const astronautApi = 'http://api.open-notify.org/astros.json';
 const promise = new Promise((resolve,reject)=>{
   setTimeout(()=>{
-    resolve();
+    resolve("timeout after 3 seconds");
   }, 3000);
 });
 
