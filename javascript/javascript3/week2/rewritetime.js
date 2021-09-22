@@ -29,5 +29,5 @@ function getCurrentLocation() {
     })
     .catch((error) => {
       // called if there was an error getting the users location
-      console.log("error");
+      console.log("users location not found");
     });
