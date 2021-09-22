@@ -2,7 +2,7 @@
 function resolveAfterSetTime(resolveAfter) {
     return new Promise((resolve) => {
       setTimeout(() => {
-        resolve();
+        resolve("timeout callback called");
       }, resolveAfter * 1000);
     });
   }
