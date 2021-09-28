@@ -100,3 +100,4 @@ class Product {
   console.log(Woofer.convertToCurrency("INR")); //1160
   console.log(shoppingCart);
   shoppingCart.renderProducts();
+  const user = shoppingCart.getUser() .then(user => shoppingCart.renderUser(user))
