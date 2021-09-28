@@ -3,18 +3,19 @@ class Product {
       this.name = name;
       this.price = price;
     }
+    
     convertToCurrency(currency) {
-      if (currency === "USD") {
-        return this.price * 0.157;
-      } else if (currency === "INR") {
-        return this.price * 11.60;
-      } else if (currency === "EUR") {
-        return this.price * 0.13;
-      } else {
-        return "enter currency in (USD,INR,EUR)";
+        fetch(
+                "https://v6.exchangerate-api.com/v6/2094ae77092b17e58dd73819/latest/DKK"
+            )
+            .then((response) => response.json())
+            .then((data) => {
+                const currencies = data.conversion_rates;
+                const convertCurrency = this.price * currencies[currency];
+                console.log(convertCurrency);
+            });
+      
       }
-    }
-  }
   
   class ShoppingCart {
     constructor() {
