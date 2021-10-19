@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 1,
+        "title" : "Indian food in the summer",
+        "maxNumberOfGuests" : 5,
+        "description" : "A nice night out eating delicious indian food",
+        "createdAt" : "2019/12/7 14:34",
+        "price" : 67
+    },
+
+    {
+        "id" : 2,
+        "title" : "Vegetable biryani",
+        "maxNumberOfGuests" : 10,
+        "description" : "A nice Vegetable biryani with gravy and raitha",
+        "createdAt" : "2021/10/15 14:34",
+        "price" : 100
+    },
+
+    {
+        "id" : 3,
+        "title" : "Chicken biryani",
+        "maxNumberOfGuests" : 15,
+        "description" : "A nice Chicken birayani wtih gravy ans raitha",
+        "createdAt" : "2019/10/20 14:34",
+        "price" : 125
+    },
+
+    {
+        "id" : 4,
+        "title" : "Lamb biryani",
+        "maxNumberOfGuests" : 20,
+        "description" : "A nice Lamb biryani with gravy and raitha",
+        "createdAt" : "2019/10/30 14:34",
+        "price" : 150
+    }
+]
